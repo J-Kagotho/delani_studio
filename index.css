@@ -7,5 +7,28 @@
 .services{
     text-align: center;
     background-image: url(./assets/backgrounds/s_image.jpg);
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-weight: bold p-5; 
 }
+ .we do{
+     text: center m-4;
+
+ }
+ .design{
+     cursor: pointer;
+     transition: 0.4s ease;
+
+ }
+ .images{
+     place-items: centre;
+     position: relative;
+     cursor: pointer;
+     justify-content: center; 
+     display: flex;   
+     gap: 20px;    
+
+
+ }
