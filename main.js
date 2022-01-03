@@ -1,5 +1,5 @@
 $(Document).ready(function(){
-    $(".dtext").on("click",function(){
+    $(".dtext").on("click", function(){
        $(".pointer").toogle();
        $(".ptext").toogle();
     });   
