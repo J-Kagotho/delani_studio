@@ -11,21 +11,13 @@
     background-repeat: no-repeat;
     background-position: center;
     font-weight: bold p-5; 
-    padding: 4rem;
-    height: 60vh;
+    padding: 6%;
+    height: 400px;
     color: white;   
 }
  .do{
      text-align: center;
      height: 40vh;
-
- }
- .design{
-     cursor: pointer;
-     transition: 0.4s ease;
-     position: relative;
-     text-align: center;
-     padding-top: 1.5rem;
 
  }
  #design{
@@ -39,11 +31,6 @@
     background-repeat: no-repeat;
     justify-content: center;
     height: 70vh;
-
-
-
-
-
 }
  
  .images{
@@ -82,10 +69,6 @@
  .placeholder{
      color: white !important;
      opacity: .7 !important;
- }
- .portfolio{
-     padding-top: 1rem;
-     position: relative;
  }
  .row{
      padding-bottom: 2rem;
@@ -133,9 +116,10 @@
     text-align: center;
     padding-top: 3%;  
 }
-.kim{
-    display: flex;
+.kim {
     justify-content: space-around;
+    text-align: center;
+
 }
 
 /* portfolio section */
@@ -166,3 +150,8 @@
     color: black;
     margin-top: 1%;
 }
+.ptext{
+    display: none;
+}
+
+
