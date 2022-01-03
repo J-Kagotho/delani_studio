@@ -10,18 +10,42 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     font-weight: bold p-5; 
+    padding: 4rem;
+    height: 60vh;
+    color: white;   
 }
- .we do{
-     text: center m-4;
+ .do{
+     text-align: center;
+     height: 40vh;
 
  }
  .design{
      cursor: pointer;
      transition: 0.4s ease;
+     position: relative;
+     text-align: center;
+     padding-top: 1.5rem;
 
  }
+ #design{
+     width: 10%;
+ }
+
+.contact{
+    background-image: url(./assets/backgrounds/c_image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    height: 60vh;
+
+
+
+
+
+}
+ 
  .images{
      place-items: centre;
      position: relative;
@@ -29,6 +53,99 @@
      justify-content: center; 
      display: flex;   
      gap: 20px;    
-
-
  }
+ .introduction{
+     background-image: url(./assets/backgrounds/h_img.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+     height: 60vh;
+     
+ }
+ .appear{
+     position: absolute;
+     top: 0;
+     display: none;
+ }
+
+ .copyright{
+     text-align: center;
+     font-size: 12px;
+ }
+ #area{
+     margin: 10px auto;
+     height: 40vh !important;
+     width: 65vh !important;
+ }
+ ..placeholder{
+     color: white !important;
+     opacity: .7 !important;
+ }
+ .portfolio{
+     padding-top: 1rem;
+     position: relative;
+ }
+ .row{
+     padding-bottom: 2rem;
+ }
+ .port{
+     position: absolute;
+     color: white !important;
+     padding: 1rem;
+     border: 3px solid white;
+     margin-left: 1.5rem;
+     height: 20vh;
+     width: 20%;
+     opacity: 0;
+     padding-top: 1rem;
+     font-weight: bold;
+     font-size: 25px;
+     top: 2.2rem;
+     bottom: 0;
+
+}
+#email{
+    height: 25px;
+    width: 300px;
+    margin-left: 2%;
+    background-color: transparent; 
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    
+}
+#name{
+    width: 300px;
+    height: 25px;
+    margin-left: 2%;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    border: 1px solid white;
+    justify-content: center;
+    padding-left: 20px;
+}
+#area{
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+#contact{
+    color: white;
+}
+#lio{
+    text-align: center;
+}
+::placeholder{
+    color: white;
+}
+.what-we-do{
+    border: none;
+    text-align: center;
+    padding-top: 3%;  
+}
+.kim{
+    display: flex;
+    justify-content: space-around;
+}
