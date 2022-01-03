@@ -1,22 +1,23 @@
-$(Document).ready(function(){
+  $(Document).ready(function(){
     $(".des").on("click", function(){
        $(".dein").toggle();
        $(".dtext").toogle();
-    });   
-});
-$(Document).ready(function(){
+    }); 
+});  
+
+   $(Document).ready(function(){
     $(".dev").on("click", function(){
        $(".devin").toogle();
        $(".devtext").toogle();
     });
-}); 
+});
 
-$(Document).ready(function(){
+  $(Document).ready(function(){
     $(".pro").on("click", function(){
         $(".prin").toogle();
         $(".ptext").toogle();
         }); 
-});        
+ });       
 
 $(document).ready(function(){
     $("form#fill").submit(function(event){
@@ -32,11 +33,3 @@ $(document).ready(function(){
     });
 });
 
-$(".picha").on("mouseenter", function () {
-    $(this).addClass("active")
-  })
-
-  $(".picha").on("mouseleave", function () {
-    $(this).removeClass("active")
-  })
-})
