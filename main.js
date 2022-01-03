@@ -14,10 +14,10 @@ $(Document).ready(function(){
 
 
 $(document).ready(function(){
-    $("form#form").submit(function(event){
+    $("form#fill").submit(function(event){
         var name = $("input#name").val();
         var email = $("input#email").val();
-        var message = $("textarea#message").val();
+        var message = $("textarea#area").val();
         if(name && email){
             alert (name + ",message received. We will contact you soon.");
         }
