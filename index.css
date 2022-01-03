@@ -160,6 +160,17 @@
 .ptext{
     display: none;
 }
+.picha::before{
+    transition: 0.3s ease;
+    z-index: 2;
+    
+}
+.picha.active::before{
+    opacity: 1;
+}
+.picha.active::after{
+    transition: 0.3s ease;
+}
 
 
 

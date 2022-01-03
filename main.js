@@ -1,19 +1,19 @@
 $(Document).ready(function(){
     $(".des").on("click", function(){
-       $(".pointer").toogle();
+       $(".dein").toggle();
        $(".dtext").toogle();
     });   
 });
 $(Document).ready(function(){
     $(".dev").on("click", function(){
-       $(".pointer").toogle();
+       $(".devin").toogle();
        $(".devtext").toogle();
     });
 }); 
 
 $(Document).ready(function(){
     $(".pro").on("click", function(){
-        $(".pointer").toogle();
+        $(".prin").toogle();
         $(".ptext").toogle();
         }); 
 });        
@@ -32,13 +32,11 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $(".dark").mouseenter(function(){
-        $(".black").hide();
-        $(".dark").css("opacity", "1")
-    });
-    $(".dark").mouseleave(function(){
-        $(".black").hide();
-        $(".dark").css("opacity", "1")
-    });
+$(".picha").on("mouseenter", function () {
+    $(this).addClass("active")
+  })
+
+  $(".picha").on("mouseleave", function () {
+    $(this).removeClass("active")
+  })
 })
