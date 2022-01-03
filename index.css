@@ -162,12 +162,14 @@
 /* form */
 .joyce{
     display: flex;
-    justify-content: space-between;
+    justify-content: ;
 }
-.name{
-    width: 45%;
-
+#welcome{
+    color: white;
 }
-.email{
-    width: 45%;
+#delani{
+    color: white;
+}
+#amaizing{
+    color: white;
 }
