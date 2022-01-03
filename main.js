@@ -1,10 +1,22 @@
 $(Document).ready(function(){
-    $(".dtext").on("click", function(){
+    $(".des").on("click", function(){
        $(".pointer").toogle();
-       $(".ptext").toogle();
+       $(".dtext").toogle();
     });   
 });
+$(Document).ready(function(){
+    $(".dev").on("click", function(){
+       $(".pointer").toogle();
+       $(".devtext").toogle();
+    });
+}); 
 
+$(Document).ready(function(){
+    $(".pro").on("click", function(){
+        $(".pointer").toogle();
+        $(".ptext").toogle();
+        }); 
+});        
 
 
 

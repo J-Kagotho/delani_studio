@@ -72,6 +72,7 @@
  }
  .row{
      padding-bottom: 2rem;
+    
  }
 #email{
     height: 25px;
@@ -150,8 +151,15 @@
     color: black;
     margin-top: 1%;
 }
+.dtext{
+    display: none;
+}
+.devtext{
+    display: none;
+}
 .ptext{
     display: none;
 }
+
 
 
