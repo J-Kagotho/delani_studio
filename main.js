@@ -18,14 +18,6 @@ $(Document).ready(function(){
         }); 
 });        
 
-
-
-
-
-
-
-
-
 $(document).ready(function(){
     $("form#fill").submit(function(event){
         var name = $("input#name").val();
@@ -39,3 +31,14 @@ $(document).ready(function(){
         }
     });
 });
+
+$(document).ready(function(){
+    $(".dark").mouseenter(function(){
+        $(".black").hide();
+        $(".dark").css("opacity", "1")
+    });
+    $(".dark").mouseleave(function(){
+        $(".black").hide();
+        $(".dark").css("opacity", "1")
+    });
+})
