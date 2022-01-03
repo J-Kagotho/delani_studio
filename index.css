@@ -61,6 +61,7 @@
      background-repeat: no-repeat;
      text-align: center;
      height: 60vh;
+     padding-top: 8%;
      
  }
  .appear{
@@ -133,6 +134,7 @@
 }
 #contact{
     color: white;
+    text-align: center;
 }
 #lio{
     text-align: center;
@@ -156,4 +158,16 @@
 .khloe{
     display: flex;
     justify-content: space-between;
+}
+/* form */
+.joyce{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 45%;
+
+}
+.email{
+    width: 45%;
 }
