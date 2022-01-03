@@ -38,7 +38,7 @@
     background-position: center;
     background-repeat: no-repeat;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
 
 
 
@@ -79,7 +79,7 @@
      height: 40vh !important;
      width: 65vh !important;
  }
- ..placeholder{
+ .placeholder{
      color: white !important;
      opacity: .7 !important;
  }
@@ -90,22 +90,6 @@
  .row{
      padding-bottom: 2rem;
  }
- .port{
-     position: absolute;
-     color: white !important;
-     padding: 1rem;
-     border: 3px solid white;
-     margin-left: 1.5rem;
-     height: 20vh;
-     width: 20%;
-     opacity: 0;
-     padding-top: 1rem;
-     font-weight: bold;
-     font-size: 25px;
-     top: 2.2rem;
-     bottom: 0;
-
-}
 #email{
     height: 25px;
     width: 300px;
@@ -162,7 +146,6 @@
 /* form */
 .joyce{
     display: flex;
-    justify-content: ;
 }
 #welcome{
     color: white;
@@ -172,4 +155,14 @@
 }
 #amaizing{
     color: white;
+}
+#mouse{
+    position: relative;
+    top: 30%;
+}
+#submit{
+    border: 1px solid white;
+    background: white;
+    color: black;
+    margin-top: 1%;
 }
