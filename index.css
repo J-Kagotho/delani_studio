@@ -48,15 +48,8 @@
      background-repeat: no-repeat;
      text-align: center;
      height: 60vh;
-     padding-top: 8%;
-     
+     padding-top: 8%;  
  }
- .appear{
-     position: absolute;
-     top: 0;
-     display: none;
- }
-
  .copyright{
      text-align: center;
      font-size: 12px;
@@ -160,27 +153,7 @@
 .ptext{
     display: none;
 }
-.picha.active::before{
-    opacity: 1;
-}
-.picha.active::after{
-    transition: 0.3s ease;
-    position: absolute;
-    z-index: 1;
-    
-}
-.message{
-    transition: 0.3s ease;
-    z-index: 20;
-    position: absolute;
-    left: 0;
-    top: 0;
-    cursor: pointer;
-}
-.message.active{
-    opacity: 1;
-    
-}
+
 
 
 

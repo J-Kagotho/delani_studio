@@ -1,7 +1,7 @@
   $(Document).ready(function(){
     $(".des").on("click", function(){
        $(".dein").toggle();
-       $(".dtext").toogle();
+       $(".detext").toogle();
     }); 
 });  
 
@@ -16,7 +16,7 @@
     $(".pro").on("click", function(){
         $(".prin").toogle();
         $(".ptext").toogle();
-        }); 
+    }); 
  });       
 
 $(document).ready(function(){
