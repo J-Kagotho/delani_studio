@@ -4,6 +4,10 @@
     justify-content: center;
     
 }
+.mouse{
+    position: relative;
+    top: 40%;
+}
 .services{
     text-align: center;
     background-image: url(./assets/backgrounds/s_image.jpg);
@@ -14,6 +18,10 @@
     padding: 6%;
     height: 400px;
     color: white;   
+}
+
+.row{
+    width: 100vh;
 }
  .do{
      text-align: center;
@@ -46,17 +54,11 @@
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
+     background-attachment: fixed;
      text-align: center;
-     height: 60vh;
-     padding-top: 8%;
-     
+     height: 70vh;
+     padding-top: 8%;  
  }
- .appear{
-     position: absolute;
-     top: 0;
-     display: none;
- }
-
  .copyright{
      text-align: center;
      font-size: 12px;
@@ -151,36 +153,26 @@
     color: black;
     margin-top: 1%;
 }
-.dtext{
-    display: none;
+
+.click{
+    position: relative;
 }
-.devtext{
-    display: none;
+
+.icons.inactive{
+    opacity: 0;
 }
-.ptext{
-    display: none;
-}
-.picha.active::before{
-    opacity: 1;
-}
-.picha.active::after{
-    transition: 0.3s ease;
-    position: absolute;
-    z-index: 1;
-    
-}
+
 .message{
-    transition: 0.3s ease;
-    z-index: 20;
+    opacity: 0;
     position: absolute;
     left: 0;
     top: 0;
-    cursor: pointer;
 }
+
 .message.active{
     opacity: 1;
-    
 }
+
 
 
 
