@@ -6,7 +6,7 @@
 }
 .mouse{
     position: relative;
-    top: 40px;
+    top: 40%;
 }
 .services{
     text-align: center;
@@ -18,6 +18,10 @@
     padding: 6%;
     height: 400px;
     color: white;   
+}
+
+.row{
+    width: 100vh;
 }
  .do{
      text-align: center;
@@ -50,8 +54,9 @@
      background-position: center;
      background-size: cover;
      background-repeat: no-repeat;
+     background-attachment: fixed;
      text-align: center;
-     height: 60vh;
+     height: 70vh;
      padding-top: 8%;  
  }
  .copyright{
@@ -148,14 +153,24 @@
     color: black;
     margin-top: 1%;
 }
-.dtext{
-    display: none;
+
+.click{
+    position: relative;
 }
-.devtext{
-    display: none;
+
+.icons.inactive{
+    opacity: 0;
 }
-.ptext{
-    display: none;
+
+.message{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.message.active{
+    opacity: 1;
 }
 
 
